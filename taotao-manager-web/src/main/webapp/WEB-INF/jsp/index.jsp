@@ -49,6 +49,7 @@
 $(function(){
 	$('#menu').tree({
 		onClick: function(node){
+			debugger
 			if($('#menu').tree("isLeaf",node.target)){
 				var tabs = $("#tabs");
 				var tab = tabs.tabs("getTab",node.text);

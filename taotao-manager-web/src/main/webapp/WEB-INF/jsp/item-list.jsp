@@ -5,7 +5,7 @@
         <tr>
         	<th data-options="field:'ck',checkbox:true"></th>
         	<th data-options="field:'id',width:60">商品ID</th>
-            <th data-options="field:'title',width:200">商品标题</th>
+            <th data-options="field:'title',width:400">商品标题</th>
             <th data-options="field:'cid',width:100">叶子类目</th>
             <th data-options="field:'sellPoint',width:100">卖点</th>
             <th data-options="field:'price',width:70,align:'right',formatter:TAOTAO.formatPrice">价格</th>
